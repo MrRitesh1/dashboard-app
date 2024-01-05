@@ -14,22 +14,23 @@ export const Footer = () => {
     <Grid
       style={{
         display: "flex",
-        flexDirection: "row",
+        // flexDirection: "row",
         padding: "30px 10px",
         flexWrap: "wrap",
         width: "100%",
         marginTop: "15px",
         backgroundColor: Color.white,
+        marginInline: isSmallScreen ? 10 : 10,
       }}
     >
-      <Grid container spacing={7} xs={12} sx={{ justifyContent: "center" }}>
-        <Grid item xs={12} sm={6} md={2} style={{}}>
+      <Grid container spacing={0} xs={12} sx={{ justifyContent: "center" }}>
+        <Grid item xs={12} md={2}>
           <div
             style={{
               display: "flex",
               justifyContent: "left",
               flexDirection: "column",
-              height: isSmallScreen ? 100 : 200,
+              height: isSmallScreen ? 150 : 180,
             }}
           >
             <Typography
@@ -48,11 +49,11 @@ export const Footer = () => {
             <Typography sx={Styles.textLeft}>Demo</Typography>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6} md={2} style={{}}>
+        <Grid item xs={12} md={2}>
           <div
             style={{
               flexDirection: "column",
-              height: isSmallScreen ? 100 : 200,
+              height: isSmallScreen ? 130 : 160,
             }}
           >
             <Typography
@@ -68,12 +69,12 @@ export const Footer = () => {
             <Typography sx={Styles.textLeft}> UI/UX Design</Typography>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} style={{}}>
+        <Grid item xs={12} md={3}>
           <div
             style={{
               flexDirection: "column",
 
-              height: isSmallScreen ? 160 : 200,
+              height: isSmallScreen ? 200 : 230,
               justifyContent: "center",
             }}
           >
@@ -145,11 +146,11 @@ export const Footer = () => {
             </div>
           </div>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} style={{}}>
+        <Grid item xs={12} md={2}>
           <div
             style={{
               flexDirection: "column",
-              height: isSmallScreen ? 100 : 200,
+              height: isSmallScreen ? 180 : 200,
             }}
           >
             <Typography
