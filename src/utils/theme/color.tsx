@@ -1,0 +1,26 @@
+const Color = {
+  black: "#000000",
+  white: "#FFFFFF",
+  red: "red",
+
+  color1: "#BFBF60",
+  color2: "#F9FAFB",
+  color3: "#EAECF0",
+  color4: "#3E4345",
+  color5: "#5E6366",
+  color6: "#A8002B",
+  color7: "#1D2939",
+  color9: "#98A2B3",
+  color10: "#405C80",
+  color11: "#F1F3F4",
+  color12: "#bbbdbf",
+  color13: "#909699",
+  color14: "#2F3F4F",
+  color15: "#F3A72E",
+  color16: "#919699",
+  color17: "#C6CACC",
+  color18: "#D7D9DA",
+  color19: "#E3E5E5",
+  color20: "#f2f2f2",
+};
+export default Color;
