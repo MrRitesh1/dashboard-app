@@ -27,14 +27,14 @@ export const Dashboard = () => {
           </Grid>
         </Stack>
 
-        <Grid sx={Styles.card} container spacing={8}>
-          <Grid item xs={9} md={3}>
+        <Grid sx={Styles.card} container spacing={5}>
+          <Grid item xs={12} md={3}>
             <TotalCard title={"Total Members"} value={"1,620"} />
           </Grid>
-          <Grid item xs={9} md={3}>
+          <Grid item xs={12} md={3}>
             <TotalCard title={"Enrolled Members"} value={"1,210"} />
           </Grid>
-          <Grid item xs={9} md={3}>
+          <Grid item xs={12} md={3}>
             <TotalCard title={"Active Now"} value={"208"} />
           </Grid>
         </Grid>

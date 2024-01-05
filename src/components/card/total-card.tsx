@@ -23,7 +23,7 @@ const Styles: any = {
     display: "flex",
     flexDirection: "column",
     backgroundColor: "#D9D9D9",
-    padding: 5,
+    padding: "10px 0px 10px 0px",
   },
   text: { marginBlock: "2px", marginInline: "10px" },
 };
